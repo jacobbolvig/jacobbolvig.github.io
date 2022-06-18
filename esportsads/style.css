@@ -7,11 +7,7 @@
     --mobile-menu-background-color: #ffffff !important;
     --list-item-border: #e1e9ff !important;
     --list-item-hover: #f1f5ff;
-    --page-width: 100% !important;
-    --button-rounding: 0px !important;
-    --collection-card-cover-size-small: 172px;
-    --collection-card-cover-size-medium: 260px;
-    --collection-card-cover-size-large: 570px !important;
+    --button-rounding: 50px !important;
 }
 body {
     -webkit-font-smoothing: antialiased !important;
