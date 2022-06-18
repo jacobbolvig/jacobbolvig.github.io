@@ -8,6 +8,7 @@
     --list-item-border: #e1e9ff !important;
     --list-item-hover: #f1f5ff;
     --button-rounding: 50px !important;
+    --page-width: 1280px;
 }
 body {
     -webkit-font-smoothing: antialiased !important;
