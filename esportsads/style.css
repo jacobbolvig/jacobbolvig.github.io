@@ -43,7 +43,7 @@ body {
     display: none !important;
 }
 .notion-image img {
-    border-radius: 20px !important;
+    border-radius: 0px !important;
 }
 h1.notion-heading {
     font-size: 42px !important;
