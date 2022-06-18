@@ -1,14 +1,14 @@
 :root {
     --primary-color: #202b3f;
     --color-text-default: #202b3f !important;
-    --color-bg-default: #F0ECE6 !important;
+    --color-bg-default: #f0ece6 !important;
     --button-bg-color: #202b3f !important;
     --button-text-color: #ffffff !important;
     --mobile-menu-background-color: #ffffff !important;
-    --list-item-border: #e1e9ff !important;
+    --list-item-border: #e1e9ff;
     --list-item-hover: #f1f5ff;
-    --button-rounding: 50px !important;
     --page-width: 1280px;
+    --button-rounding: 50px !important;
 }
 body {
     -webkit-font-smoothing: antialiased !important;
@@ -71,17 +71,13 @@ h1.notion-heading {
     margin-bottom: 10px !important;
 }
 .notion-collection-card__cover {
-    border-radius: 0px !important;
+    border-radius: 36px !important;
     box-shadow: 0 3px 16px 0 rgba(38, 47, 92, 0.06);
     border: 0 !important;
 }
 .notion-collection-card__cover.medium {
     height: 280px !important;
     max-height: 280px !important;
-}
-.notion-collection-card__cover.large {
-    height: 429px !important;
-    max-height: 429px !important;
 }
 .notion-property__title {
     transition: opacity 0.15s ease-in-out !important;
@@ -145,7 +141,7 @@ h1.notion-heading {
 }
 .notion-collection-card:hover .notion-collection-card__cover {
     transform: scale(0.97) !important;
-    border-radius: 0px !important;
+    border-radius: 39px !important;
 }
 .notion-collection-card:hover .notion-collection-card__cover img {
     transform: scale(1.15) !important;
