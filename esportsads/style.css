@@ -81,6 +81,7 @@ h1.notion-heading {
 }
 .notion-collection-card__cover.large {
     height: 16vw !important;
+    max-height: none !important;
 }
 .notion-property__title {
     transition: opacity 0.15s ease-in-out !important;
