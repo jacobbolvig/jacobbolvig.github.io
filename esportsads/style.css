@@ -144,7 +144,7 @@ h1.notion-heading {
 }
 .notion-collection-card:hover .notion-collection-card__cover {
     transform: scale(0.97) !important;
-    border-radius: 39px !important;
+    border-radius: 0px !important;
 }
 .notion-collection-card:hover .notion-collection-card__cover img {
     transform: scale(1.15) !important;
@@ -356,7 +356,7 @@ h1.notion-heading {
 @media only screen and (min-width: 1200px) 
     {
     .notion-collection-gallery.large {
-        grid-template-columns: repeat(3,minmax(var(--collection-card-cover-size-large),1fr));
+        grid-template-columns: repeat(3,minmax(var(--collection-card-cover-size-large),1fr)) !important;
     }
 }
 #page-index .notion-header__cover.has-cover {
