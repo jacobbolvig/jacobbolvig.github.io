@@ -79,6 +79,9 @@ h1.notion-heading {
     height: 280px !important;
     max-height: 280px !important;
 }
+.notion-collection-card__cover.medium {
+    height: 16vw !important;
+}
 .notion-property__title {
     transition: opacity 0.15s ease-in-out !important;
     margin-bottom: 5px !important;
@@ -346,6 +349,14 @@ h1.notion-heading {
     }
     .notion-dropdown__option.active-filter p {
         color: var(--button-text-color) !important;
+    }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) 
+    {
+    .notion-collection-gallery.large {
+        grid-template-columns: repeat(3,minmax(var(--collection-card-cover-size-large),1fr));
     }
 }
 #page-index .notion-header__cover.has-cover {
