@@ -79,10 +79,7 @@ h1.notion-heading {
     height: 280px !important;
     max-height: 280px !important;
 }
-.notion-collection-card__cover.large {
-    height: 16vw !important;
-    max-height: none !important;
-}
+
 .notion-property__title {
     transition: opacity 0.15s ease-in-out !important;
     margin-bottom: 5px !important;
@@ -292,6 +289,10 @@ h1.notion-heading {
     display: none !important;
 }
 @media all and (min-width: 624px) {
+    .notion-collection-card__cover.large {
+    height: 16vw !important;
+    max-height: none !important;
+    }
     .notion-dropdown__button,
     .notion-dropdown__menu-header {
         display: none !important;
@@ -360,6 +361,7 @@ h1.notion-heading {
         grid-template-columns: repeat(3,minmax(var(--collection-card-cover-size-large),1fr)) !important;
     }
 }
+
 #page-index .notion-header__cover.has-cover {
     position: absolute !important;
     width: 100% !important;
