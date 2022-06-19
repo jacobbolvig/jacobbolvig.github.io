@@ -205,6 +205,11 @@ h1.notion-heading {
     max-width: 600px !important;
     margin: 0 auto !important;
 }
+.notion-root > h1.notion-heading:last-of-type {
+    text-align: center !important;
+    max-width: 600px !important;
+    margin: 0 auto !important;
+}
 @-webkit-keyframes dropdown-animation-in {
     0% {
         opacity: 0;
