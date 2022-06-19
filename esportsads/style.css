@@ -100,10 +100,10 @@ h1.notion-heading {
 }
 .notion-collection-card__property:last-child,
 .notion-collection-list__item-property:last-child {
-    background: var(--button-bg-color) !important;
+    background: #000000 !important;
     border-radius: 100px !important;
     padding: 10px !important;
-    color: var(--button-text-color) !important;
+    color: #FFFFFF !important;
     font-size: 16px !important;
     font-weight: 600 !important;
     opacity: 0.5 !important;
