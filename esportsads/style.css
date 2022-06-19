@@ -352,7 +352,7 @@ h1.notion-heading {
 }
 
 
-@media screen and (max-width: 479px) {
+@media screen and (min-width: 320px) {
   /* Mobile - Portrait CSS */
      .notion-collection-gallery.large {
         grid-template-columns: repeat(auto-fill,minmax(var(--collection-card-cover-size-large),1fr)) !important;
@@ -362,7 +362,7 @@ h1.notion-heading {
     max-height: none !important;
     }
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
   /* Mobile - Landcape CSS */
      .notion-collection-gallery.large {
         grid-template-columns: repeat(auto-fill,minmax(var(--collection-card-cover-size-large),1fr)) !important;
@@ -372,7 +372,7 @@ h1.notion-heading {
     max-height: none !important;
     }
 }
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 991px) {
   /* Tablet CSS */
      .notion-collection-gallery.large {
         grid-template-columns: repeat(auto-fill,minmax(var(--collection-card-cover-size-large),1fr)) !important;
