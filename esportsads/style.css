@@ -375,10 +375,10 @@ h1.notion-heading {
 @media screen and (min-width: 991px) {
   /* Tablet CSS */
      .notion-collection-gallery.large {
-        grid-template-columns: repeat(auto-fill,minmax(var(--collection-card-cover-size-large),1fr)) !important;
+        grid-template-columns: repeat(1,minmax(var(--collection-card-cover-size-large),1fr)) !important;
     }
     .notion-collection-card__cover.large {
-    height: 16vw !important;
+    height: 45vw !important;
     max-height: none !important;
     }
 }
