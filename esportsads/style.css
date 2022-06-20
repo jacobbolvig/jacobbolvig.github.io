@@ -16,6 +16,12 @@
     font-display: swap;
 }
 
+body {
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    text-rendering: optimizeLegibility !important;
+}
+
 h1#block-97ac501f9d194c7d8f68d3e7c64cdcec {
     font-family: "Neue Montreal" !important;
     font-weight: 700 !important;
@@ -27,12 +33,6 @@ h1#block-8ab3f6025ca74033b0e6884c8291a55f {
     font-family: "Apris" !important;
     font-weight: 500 !important;
     font-size: 3.1rem !important;
-}
-
-body {
-    -webkit-font-smoothing: antialiased !important;
-    -moz-osx-font-smoothing: grayscale !important;
-    text-rendering: optimizeLegibility !important;
 }
 .super-navbar__menu {
     background: var(--mobile-menu-background-color) !important;
