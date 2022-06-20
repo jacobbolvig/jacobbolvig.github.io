@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Neue Montreal';
+    font-family: "Neue Montreal";
     src: url('https://jacobbolvig.github.io/esportsads/fonts/neuemontreal-bold-webfont.woff2') format('woff2'),
          url('https://jacobbolvig.github.io/esportsads/fonts/neuemontreal-bold-webfont.woff') format('woff');
     font-weight: 700;
@@ -8,7 +8,7 @@
 
 }
 @font-face {
-    font-family: 'Apris';
+    font-family: "Apris";
     src: url('https://jacobbolvig.github.io/esportsads/fonts/Apris-Medium.woff2') format('woff2'),
         url('https://jacobbolvig.github.io/esportsads/fonts/Apris-Medium.woff') format('woff');
     font-weight: 500;
