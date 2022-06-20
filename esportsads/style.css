@@ -22,6 +22,8 @@ body {
     text-rendering: optimizeLegibility !important;
 }
 
+/* front page edits */
+
 h1#block-97ac501f9d194c7d8f68d3e7c64cdcec {
     font-family: "Neue Montreal" !important;
     font-weight: 700 !important;
@@ -34,6 +36,15 @@ h1#block-8ab3f6025ca74033b0e6884c8291a55f {
     font-weight: 500 !important;
     font-size: 3.1rem !important;
 }
+
+div#block-5d46e7cd5e2642989f59db4e33f8fbf1.notion-text {
+    font-size: 24px !important;
+    margin-top: 0.5rem !important;
+    max-width: 800px !important;
+}
+
+/* front page edits - end */
+
 .super-navbar__menu {
     background: var(--mobile-menu-background-color) !important;
 }
