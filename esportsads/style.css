@@ -447,7 +447,7 @@ h1.notion-heading {
     display: none !important;
 }
 #page-index .super-content {
-    margin-top: 3rem !important;
+    margin-top: 0rem !important;
 }
 .notion-header__title-wrapper {
     text-align: center !important;
