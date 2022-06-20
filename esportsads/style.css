@@ -469,6 +469,11 @@ h1.notion-heading {
 .notion-header__title-wrapper {
     text-align: center !important;
 }
+.notion-header__ {
+    font-family: 'Apris' !important;
+    font-weight: 500 !important;
+}
+
 .notion-header__icon-wrapper.has-icon,
 .notion-header__icon-wrapper.has-icon-image {
     position: absolute !important;
