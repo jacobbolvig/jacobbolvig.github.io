@@ -17,15 +17,15 @@
 }
 
 h1#block-97ac501f9d194c7d8f68d3e7c64cdcec {
-    font-family: Neue Montreal;
-    font-weight: 700;
-    text-align: center;
+    font-family: "Neue Montreal" !important;
+    font-weight: 700 !important;
+    text-align: center !important;
     margin-top: -0.8rem !important;
 }
 
 h1#block-8ab3f6025ca74033b0e6884c8291a55f {
-    font-family: Apris;
-    font-weight: 500;
+    font-family: "Apris" !important;
+    font-weight: 500 !important;
     font-size: 3.1rem !important;
 }
 
@@ -67,7 +67,6 @@ body {
 h1.notion-heading {
     font-size: 42px !important;
     line-height: 48px !important;
-    font-family: "Neue Montreal","Helvetica";
     font-weight: 700; 
 }
 .notion-collection-card__cover,
