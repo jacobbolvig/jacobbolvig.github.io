@@ -152,7 +152,13 @@ h1.notion-heading {
     border-radius: 50px !important;
     opacity: 0.7 !important;
     transition: opacity 0.15s ease-in-out !important;
+    font-family: "Apris";
+    font-weight: "Bold";
 }
+.notion-pill {
+    font-size: 1rem !important;
+}   
+
 .notion-collection-card .notion-property__title span {
     font-size: 22px !important;
     font-weight: 600 !important;
