@@ -115,6 +115,7 @@ h1.notion-heading {
     transition: opacity 0.15s ease-in-out !important;
     margin-bottom: 5px !important;
     opacity: 0.85 !important;
+    font-family: "Neue Montreal" !important;
 }
 .notion-property.notion-property__title .notion-semantic-string span {
     white-space: pre-wrap !important;
