@@ -408,6 +408,9 @@ h1.notion-heading {
      .notion-collection-gallery.large {
         grid-template-columns: repeat(auto-fill,minmax(var(--collection-card-cover-size-large),1fr)) !important;
     }
+    .notion-collection-gallery {
+        grid-auto-rows: 0.8fr !important;
+    }
     .notion-collection-card__cover.large {
     height: 80vw !important;
     max-height: none !important;
