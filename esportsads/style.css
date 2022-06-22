@@ -416,8 +416,8 @@ h1.notion-heading {
     max-height: none !important;
     }
     .notion-header__cover.no-cover {
-    max-height: 30px;
-    height: 30px;
+    max-height: 30px !important;
+    height: 30px !important;
     }
 }
 @media screen and (min-width: 767px) {
