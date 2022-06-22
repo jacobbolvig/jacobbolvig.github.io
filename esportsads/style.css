@@ -461,6 +461,9 @@ h1.notion-heading {
     max-height: 80px !important;
     height: 80px !important;
     }
+    .notion-collection-gallery {
+        grid-auto-rows: 1fr !important;
+    }
 }
 
 #page-index .notion-header__cover.has-cover {
