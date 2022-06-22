@@ -429,6 +429,10 @@ h1.notion-heading {
     height: 38vw !important;
     max-height: none !important;
     }
+    .notion-header__cover.no-cover {
+    max-height: 80px !important;
+    height: 80px !important;
+    }
 }
 @media screen and (min-width: 991px) {
   /* Tablet CSS */
@@ -437,7 +441,11 @@ h1.notion-heading {
     }
     .notion-collection-card__cover.large {
     height: 45vw !important;
-    max-height: none !important;
+    max-height: none !important;    
+    }
+    .notion-header__cover.no-cover {
+    max-height: 80px !important;
+    height: 80px !important;
     }
 }
 @media screen and (min-width: 1280px) {
@@ -448,6 +456,10 @@ h1.notion-heading {
     .notion-collection-card__cover.large {
     height: 25vw !important;
     max-height: none !important;
+    }
+   .notion-header__cover.no-cover {
+    max-height: 80px !important;
+    height: 80px !important;
     }
 }
 
@@ -470,11 +482,6 @@ h1.notion-heading {
     background-image: linear-gradient(to bottom, rgba(233, 233, 233, 0), rgba(233, 233, 233, 1) 98%) !important;
     width: 100% !important;
     height: 100% !important;
-}
-
-.notion-header__cover.no-cover {
-    max-height: 80px !important;
-    height: 80px !important;
 }
 
 #page-index .notion-header__content {
