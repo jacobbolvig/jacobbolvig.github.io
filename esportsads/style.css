@@ -60,6 +60,10 @@ div#block-5d46e7cd5e2642989f59db4e33f8fbf1.notion-text {
     color: var(--button-text-color);
     border-radius: var(--button-rounding) !important;
 }
+.super-navbar__logo-image {
+    width: 8rem !important;
+    
+}
 .super-navbar.scrolled {
     -webkit-backdrop-filter: blur(20px) saturate(200%) !important;
     -moz-backdrop-filter: blur(20px) saturate(200%) !important;
