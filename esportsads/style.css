@@ -154,7 +154,7 @@ h1.notion-heading {
 }
 .notion-property.notion-property__select .notion-pill {
     padding: 14px 10px !important;
-    margin: 0 !important;
+    margin: 0px 8px 0px 0px !important;
     line-height: 0 !important;
     max-width: 100% !important;
     border-radius: 50px !important;
