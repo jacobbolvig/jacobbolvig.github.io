@@ -521,6 +521,7 @@ h3.notion-heading {
 .notion-header__title {
     font-family: 'Apris' !important;
     font-weight: 500 !important;
+    text-align: center !important;
 }
 .notion-root > h1.notion-header__title:first-of-type {
     text-align: center !important;
@@ -574,4 +575,11 @@ h3.notion-heading {
 }
 a.notion-link.super-navbar__logo {
     max-width: 100% !important;
+}
+
+.notion-text__content {
+    font-size: 0.95rem !important;
+    max-width: 550px !important;
+    line-height: 1.4rem !important;
+    text-align: justify !important;
 }
