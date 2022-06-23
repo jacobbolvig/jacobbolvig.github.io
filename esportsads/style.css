@@ -98,9 +98,10 @@ h3.notion-heading {
     font-family: 'Neue Montreal' !important;
 }
 
-.notion-collection-list .notion-property__title__icon-wrapper span, .notion-property__title__icon-wrapper {
+.notion-icon__page {
     display: none !important;
 }
+
 .notion-collection-card__cover,
 .notion-collection-card__cover img {
     transition: all 0.25s ease-in-out !important;
