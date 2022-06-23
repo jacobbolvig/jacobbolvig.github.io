@@ -551,3 +551,6 @@ h1.notion-heading {
     opacity: 0.7 !important;
     cursor: pointer;
 }
+a.notion-link.super-navbar__logo {
+    max-width: 100% !important;
+}
