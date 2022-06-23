@@ -219,6 +219,7 @@ h1.notion-heading {
 }
 .notion-collection-list__item:hover {
     background: var(--list-item-hover) !important;
+    cursor: pointer;
 }
 .notion-collection-list__item-content {
     flex-direction: column !important;
@@ -543,8 +544,10 @@ h1.notion-heading {
     opacity: 1 !important;
     max-width: 550px;
     margin: auto;
+    cursor: pointer;
 }
 
 .notion-link:hover {
     opacity: 0.7 !important;
+    cursor: pointer;
 }
