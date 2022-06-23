@@ -161,7 +161,7 @@ h1.notion-heading {
     opacity: 0.7 !important;
     transition: opacity 0.15s ease-in-out !important;
     font-family: "Apris";
-    font-weight: bold;
+    font-weight: 400;
 }
 .notion-pill {
     font-size: 1rem !important;
