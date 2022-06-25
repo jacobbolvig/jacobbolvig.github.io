@@ -187,7 +187,7 @@ h3.notion-heading {
     font-weight: 400;
 }
 .notion-pill {
-    font-size: 1rem !important;
+    font-size: 0.8rem !important;
 }   
 
 .notion-collection-card .notion-property__title span {
@@ -577,12 +577,4 @@ h3.notion-heading {
 }
 a.notion-link.super-navbar__logo {
     max-width: 100% !important;
-}
-
-.notion-text__content {
-    font-size: 0.95rem !important;
-    max-width: 550px !important;
-    line-height: 1.4rem !important;
-    text-align: justify !important;
-    margin: auto !important;
 }
