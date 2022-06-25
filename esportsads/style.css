@@ -578,3 +578,10 @@ h3.notion-heading {
 a.notion-link.super-navbar__logo {
     max-width: 100% !important;
 }
+
+.notion-text__content {
+    margin: 0.5rem auto 0.6rem auto;
+    max-width: 680px;
+    font-size: 1.12rem;
+    line-height: 1.6rem;
+}
