@@ -585,3 +585,7 @@ a.notion-link.super-navbar__logo {
     font-size: 1.12rem;
     line-height: 1.6rem;
 }
+
+.notion-toggle__summary {
+   max-width: 680px;
+}
