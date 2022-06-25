@@ -107,6 +107,9 @@ h3.notion-heading {
     margin-top: 4rem !important;
 }
 
+.notion-icon__page {
+    display: none !important;
+}
 
 .notion-collection-card__cover,
 .notion-collection-card__cover img {
@@ -160,9 +163,7 @@ h3.notion-heading {
 }
 .notion-collection-card__property:last-child,
 .notion-collection-list__item-property:last-child {
-    background: #000000 !important;
     border-radius: 100px !important;
-    padding: 10px !important;
     color: #FFFFFF !important;
     font-size: 16px !important;
     font-weight: 600 !important;
