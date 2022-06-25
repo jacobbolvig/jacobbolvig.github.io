@@ -585,5 +585,9 @@ a.notion-link.super-navbar__logo {
 }
 
 .notion-toggle__summary {
-   max-width: 680px;
+   max-width: 680px !important;
+}
+
+.super-footer__footnote {
+    font-size: 0.6rem !important;
 }
