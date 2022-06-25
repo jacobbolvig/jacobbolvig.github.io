@@ -591,3 +591,7 @@ a.notion-link.super-navbar__logo {
 .super-footer__footnote {
     font-size: 0.6rem !important;
 }
+
+.super-footer__links {
+    font-size: 1rem !important;
+}
