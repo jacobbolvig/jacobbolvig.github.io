@@ -502,6 +502,14 @@ h3.notion-heading {
     max-height: 80px !important;
     height: 80px !important;
     }
+   .notion-bookmark {
+    margin-left: auto!important;
+    margin-right: auto!important;
+    max-width: 800px;
+}
+     .notion-bookmark__cover {
+    display:block!important;
+}
    
 }
 
@@ -612,8 +620,3 @@ a.notion-link.super-navbar__logo {
     font-size: 1rem !important;
 }
 
-.notion-bookmark {
-    margin-left: auto!important;
-    margin-right: auto!important;
-    max-width: 800px;
-}
