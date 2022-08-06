@@ -505,10 +505,10 @@ h3.notion-heading {
    .notion-bookmark {
     margin-left: auto!important;
     margin-right: auto!important;
-    max-width: 800px;
+    max-width: 800px !important;
 }
-     .notion-bookmark__cover {
-    display:block!important;
+  .notion-bookmark__cover {
+    display:block !important;
 }
    
 }
