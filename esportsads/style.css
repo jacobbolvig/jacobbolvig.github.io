@@ -562,7 +562,6 @@ h3.notion-heading {
 }
 .notion-link {
     opacity: 1 !important;
-    max-width: 800px;
     margin: auto;
     cursor: pointer;
 }
@@ -592,4 +591,10 @@ a.notion-link.super-navbar__logo {
 
 .super-footer__links {
     font-size: 1rem !important;
+}
+
+.notion-bookmark {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
 }
