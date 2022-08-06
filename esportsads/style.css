@@ -443,6 +443,13 @@ h3.notion-heading {
     max-height: 30px !important;
     height: 30px !important;
     }
+    .notion-bookmark {
+    margin-left: auto!important;
+    margin-right: auto!important;
+    max-width: 280px!important;
+}
+     .notion-bookmark__cover {
+    display: none!important;
 }
 @media screen and (min-width: 767px) {
   /* Mobile - Landcape CSS */
