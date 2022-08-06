@@ -479,6 +479,9 @@ h3.notion-heading {
     max-height: 80px !important;
     height: 80px !important;
     }
+    .notion-toggle {
+   margin-left: 0 !important;
+}
 }
 @media screen and (min-width: 1280px) {
   /* screens 1280px wide and above */
@@ -591,8 +594,8 @@ a.notion-link.super-navbar__logo {
     line-height: 1.6rem;
 }
 
-.notion-toggle__summary {
-   max-width: 680px !important;
+.notion-toggle {
+   margin-left: 196px !important;
 }
 
 .super-footer__footnote {
